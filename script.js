@@ -11,3 +11,7 @@ cardFront.addEventListener('click',
 function(event) {
     event.stopPropagation();
 });
+
+cardBack.addEventListener('click', function() {
+    card.classList.toggle('flipped');
+});
