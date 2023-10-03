@@ -7,7 +7,7 @@ function(){
 card.classList.toggle('flipped');
 });
 
-cardBack.addEventListener('click', function(event) {
+cardBack.addEventListener('click', function(this) {
     event.stopPropagation();
     card.classList.toggle('flipped');
 });
