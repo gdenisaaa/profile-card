@@ -1,6 +1,6 @@
 const card = document.querySelector('.card');
-const cardFront = document.querySelector('.card-front');
-const cardBack = document.querySelector('.card-back');
+const cardFront = document.querySelector('.front');
+const cardBack = document.querySelector('.back');
 
 card.addEventListener('click', 
 function(){
